@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature's Health Care - Herbal Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+    }
+    header {
+      background: #2c7a2c;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #256325;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #1d4e1d;
+    }
+    .container {
+      padding: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+    .product p {
+      font-size: 14px;
+      color: #666;
+    }
+    .product button {
+      background: #2c7a2c;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .product button:hover {
+      background: #256325;
+    }
+    .contact {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+    .contact input, .contact textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact button {
+      background: #2c7a2c;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact button:hover {
+      background: #256325;
+    }
+    footer {
+      background: #2c7a2c;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nature's Health Care</h1>
+    <p>Pure Herbal Solutions for Your Health</p>
+  </header>  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>  <div class="container" id="home">
+    <h2>Welcome to Nature's Health Care</h2>
+    <p>We provide 100% natural herbal products for a healthy lifestyle.</p>
+  </div>  <div class="container" id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200?text=JeevanJadi+Herbal" alt="Jeevan Jadi Herbal">
+        <h3>Jeevan Jadi Herbal</h3>
+        <p>Boosts energy, improves stamina, and enhances immunity naturally.</p>
+        <p><b>Price: ₹999</b></p>
+        <button>Add to Cart</button>
+      </div><div class="product">
+    <img src="https://via.placeholder.com/250x200?text=Kidney+Booster" alt="Kidney Booster">
+    <h3>Kidney Booster</h3>
+    <p>Supports kidney health, detoxifies body, and prevents stones.</p>
+    <p><b>Price: ₹1199</b></p>
+    <button>Add to Cart</button>
+  </div>
+</div>
+
+  </div>  <div class="container contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Your Mobile" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>  <footer>
+    <p>&copy; 2025 Nature's Health Care. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
